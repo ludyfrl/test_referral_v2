@@ -7,9 +7,9 @@ select
     CAST(amount AS integer),
     CAST(status AS string),
     CAST(type AS string),
-    CAST(created_at AS timestamptz),
+    CAST(created_at AS timestamp),
     CAST(created_by AS string),
-    CAST(updated_at AS timestamptz),
+    CAST(updated_at AS timestamp),
     CAST(updated_at AS string)
 from `data-314708.test_referral_v2.transactions`
 
