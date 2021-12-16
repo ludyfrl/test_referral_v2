@@ -10,3 +10,30 @@ models:
         tests:
           - unique
           - not_null
+
+      - name: user_id
+        description: "User id"
+
+      - name: wallet_tx_id
+        description: "Wallet tx id"
+
+      - name: amount
+        description": "Transaction amount"
+
+      - name: status
+        description": "Status"
+
+      - name: type
+        description": "Type"
+      
+      - name: created_at
+        description": "Created at"
+      
+      - name: created_by
+        description": "Created by"
+
+      - name: updated_at
+        description": "Updated at"
+
+      - name: updated_by
+        description": "Updated by"
