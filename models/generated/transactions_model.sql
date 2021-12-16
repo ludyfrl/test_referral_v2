@@ -16,6 +16,6 @@ from `data-314708.test_referral_v2.transactions`
 {% if is_incremental() %}
 
     -- this filter will only be applied on an incremental run
-    where updated_at > (select max(updated_at) from {{ this }})
+    where CAST(updated_at AS timestamp) > (select max(updated_at) from {{ this }})
 
 {% endif %}
