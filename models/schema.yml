@@ -2,7 +2,7 @@
 version: 2
 
 models:
-  - name: transaction_model
+  - name: transactions_model
     description: "Transaction models"
     columns:
       - name: id
